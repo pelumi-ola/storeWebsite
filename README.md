@@ -98,67 +98,60 @@ A custom `style.css` file enhances branding and design with:
 - Category icons and newsletter styles
 - Footer design and link effects
 
-Example snippet:
+## Design Choices
 
-```css
-.text-gradient {
-  background: linear-gradient(90deg, #0d6efd, #6610f2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+During development, I focused on:
 
-.hero-section {
-  background: url("./images/hero-bg.jpg") center/cover no-repeat;
-  height: 90vh;
-}
-How to Run the Project
-Download or clone the project folder
+Clarity: Minimalistic design with plenty of whitespace for better readability.
 
-bash
-Copy code
-git clone https://github.com/yourusername/shopease.git
-Open the folder
+Consistency: Using Bootstrap’s grid system for uniform layouts.
 
-bash
-Copy code
-cd shopease
-Launch the website
+Color Psychology: Soft blues and purples for trust and modern appeal.
 
-Double-click index.html
-OR
+Accessibility: Readable fonts and balanced color contrasts.
 
-Use VS Code Live Server for auto-refresh and quick preview
+Each section of the site maintains a consistent tone and layout to ensure users can navigate effortlessly, whether they’re on mobile or desktop.
 
-No backend setup required all pages are static HTML/CSS.
+## What I Learned
 
-Responsiveness
-The site uses Bootstrap’s grid and flex utilities to ensure full responsiveness across:
+Structuring a multi-page website using semantic HTML5.
 
-Desktop screens
+Designing responsive layouts with Bootstrap’s grid and flex utilities.
 
-Laptops & tablets
+Applying custom CSS for hover effects and visual appeal.
 
-Mobile phones
+Maintaining consistent branding across multiple pages.
 
-Project Screenshots
-<div align="center">
-Home Page
-<table> <tr> <td align="center"><b>Desktop View</b></td> <td align="center"><b>Mobile View</b></td> </tr> <tr> <td><img src="./images/screenshot-home.png" width="450"></td> <td><img src="./images/screenshot-mobile-home.png" width="200"></td> </tr> </table>
-Products Page
-<table> <tr> <td align="center"><b>Desktop View</b></td> <td align="center"><b>Mobile View</b></td> </tr> <tr> <td><img src="./images/screenshot-products.png" width="450"></td> <td><img src="./images/screenshot-mobile-product.png" width="200"></td> </tr> </table>
-Contact Page
-<table> <tr> <td align="center"><b>Desktop View</b></td> <td align="center"><b>Mobile View</b></td> </tr> <tr> <td><img src="./images/screenshot-contact.png" width="450"></td> <td><img src="./images/screenshot-mobile-contact.png" width="200"></td> </tr> </table>
-About Page
-<table> <tr> <td align="center"><b>Desktop View</b></td> <td align="center"><b>Mobile View</b></td> </tr> <tr> <td><img src="./images/screenshot-about.png" width="450"></td> <td><img src="./images/screenshot-mobile-about.png" width="200"></td> </tr> </table>
-Checkout Page
-<table> <tr> <td align="center"><b>Desktop View</b></td> <td align="center"><b>Mobile View</b></td> </tr> <tr> <td><img src="./images/screenshot-checkout.png" width="450"></td> <td><img src="./images/screenshot-mobile-checkout.png" width="200"></td> </tr> </table>
-Privacy Page
-<table> <tr> <td align="center"><b>Desktop View</b></td> <td align="center"><b>Mobile View</b></td> </tr> <tr> <td><img src="./images/screenshot-privacy.png" width="450"></td> <td><img src="./images/screenshot-mobile-privacy.png" width="200"></td> </tr> </table> </div>
+Organizing and documenting projects professionally for presentation.
 
-Author
+## Responsiveness
+
+The website was tested on different devices to ensure proper layout scaling across:
+
+- Desktop screens
+
+- Laptops and tablets
+
+- Mobile phones
+
+## Screenshort
+
+- Home - [/images/screenshot-home.png] - [/images/screenshot-mobile-home.png]
+- Product - [/images/screenshot-products.png] -[/images/screenshot-mobile-product.png]
+- Contact - [/images/screenshot-contact.png] - [/images/screenshot-mobile-contact.png]
+- About - [/images/screenshot-about.png] - [/images/screenshot-mobile-about.png]
+- Checkout - [/images/screenshot-checkout.png] - [/images/screenshot-mobile-checkout.png]
+- Privacy - [/images/screenshot-privacy.png] - [/images/screenshot-mobile-privacy.png]
+
+## Author
+
 Developed by: [Esther-Ola]
 
-License
+## License
+
 This project is for educational purposes only.
 All design and code were written manually using HTML, CSS, and Bootstrap 5.
+
+```
+
 ```
